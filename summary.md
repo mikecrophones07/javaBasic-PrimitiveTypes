@@ -32,6 +32,13 @@ TEST4 - should_do_bitwise_not_operation
 -- CharTypeTest --
 TEST 1 should_describe_escaped_chars
 1. to check whether we know what is escaped characters that is used in text https://stackoverflow.com/questions/1367322/what-are-all-the-escape-characters
-2. wrong answer due to some escaped characters that didn't its the valeu
+2. wrong answer due to some escaped characters that didn't know its real value
 3. tried to correct the answer base from the understanding of what escaped character is
+4. None
+
+-- FloatingTypeTest --
+TEST 1 should_not_get_rounded_result_if_convert_floating_number_to_integer
+1. to know how to convert float to integer without rounding https://stackoverflow.com/questions/17061375/converting-float-to-int-without-rounding
+2. didn't know how to convert float to int without rounding
+3. to pass the test and to test whether the real value is correct to the expected value
 4. None
