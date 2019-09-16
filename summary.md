@@ -28,3 +28,10 @@ TEST4 - should_do_bitwise_not_operation
 2. wrong answer due to wrong conversion of hex -> decimal value and didnt get the application of not operator
 3. i can sense that by solving the real answer, i can understand how to apply bitwise not operator in the value given decimal.
 4. None
+
+-- CharTypeTest --
+TEST 1 should_describe_escaped_chars
+1. to check whether we know what is escaped characters that is used in text https://stackoverflow.com/questions/1367322/what-are-all-the-escape-characters
+2. wrong answer due to some escaped characters that didn't its the valeu
+3. tried to correct the answer base from the understanding of what escaped character is
+4. None
