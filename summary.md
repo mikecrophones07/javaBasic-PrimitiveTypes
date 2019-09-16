@@ -16,3 +16,9 @@ TEST2 - should_do_bitwise_and_boolean_operation
 2. wrong answer due to applying bitwise operation in 2 binaries -> hex was converted to binary to answer easily the value
 3. to correct the expected result base on the calculated bitwise operation
 4. None
+
+TEST3 - should_do_bitwise_or_boolean_operation
+1. To check how will you apply bitwise operation in hex value and know to convert values to apply logical operands https://www.programiz.com/c-programming/bitwise-operators
+2. wrong answer due to applying or bitwise operation in 2 binaries -> hex was converted to binary to answer easily the value
+3. to correct the expected result base on the calculated bitwise operation
+4. None
