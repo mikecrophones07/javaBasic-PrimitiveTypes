@@ -10,3 +10,9 @@ TEST1 - should_perform_logical_boolean_operations
 2. wrong answers in the expected out of logical operands
 3. to match the expected output to the actual true result
 4. none
+
+TEST2 - should_do_bitwise_and_boolean_operation
+1. To check how will you apply bitwise operation in hex value and know to convert values to apply logical operands https://www.programiz.com/c-programming/bitwise-operators
+2. wrong answer due to applying bitwise operation in 2 binaries -> hex was converted to binary to answer easily the value
+3. to correct the expected result base on the calculated bitwise operation
+4. None
