@@ -22,3 +22,9 @@ TEST3 - should_do_bitwise_or_boolean_operation
 2. wrong answer due to applying or bitwise operation in 2 binaries -> hex was converted to binary to answer easily the value
 3. to correct the expected result base on the calculated bitwise operation
 4. None
+
+TEST4 - should_do_bitwise_not_operation
+1. to compute the value of the converted value of hex to binary and adding not that will reverse the value of the answer https://stackoverflow.com/questions/2513525/bitwise-not-operator
+2. wrong answer due to wrong conversion of hex -> decimal value and didnt get the application of not operator
+3. i can sense that by solving the real answer, i can understand how to apply bitwise not operator in the value given decimal.
+4. None
