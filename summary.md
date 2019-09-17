@@ -42,3 +42,9 @@ TEST 1 should_not_get_rounded_result_if_convert_floating_number_to_integer
 2. didn't know how to convert float to int without rounding
 3. to pass the test and to test whether the real value is correct to the expected value
 4. None
+
+TEST 2 should_judge_special_double_cases
+1. to know the difference of finite and infinite and not a number https://stackoverflow.com/questions/8311604/check-if-a-double-is-infinite-in-java/8311657 | https://www.geeksforgeeks.org/double-isnan-method-in-java-with-examples/
+2. didn't what is finite & inifinity and not a number
+3. to check and validate is double is infinite and not a number
+4. None
