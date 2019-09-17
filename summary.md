@@ -85,3 +85,9 @@ TEST 4 should_get_range_of_primitive_byte_type
 2. no test error happened
 3. no correction happened since i only run the test once
 4. None
+
+TEST 5 should_overflow_silently
+1. to know the logic of overflow silently for Integer Type
+2. didn't know that the logic of it is resets to the minimum value of Integer
+3. correct and set the expected result to min value using property
+4. None
