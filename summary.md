@@ -48,3 +48,9 @@ TEST 2 should_judge_special_double_cases
 2. didn't what is finite & inifinity and not a number
 3. to check and validate is double is infinite and not a number
 4. None
+
+TEST 3 should_not_round_number_when_convert_to_integer
+1. to know how to convert float to integer without rounding https://stackoverflow.com/questions/17061375/converting-float-to-int-without-rounding
+2. didn't know how to convert float to int without rounding
+3. to pass the test and to test whether the real value is correct to the expected value
+4. None
