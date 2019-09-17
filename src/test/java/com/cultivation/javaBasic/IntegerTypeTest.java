@@ -116,8 +116,8 @@ class IntegerTypeTest {
 
         // TODO: please modify the following lines to pass the test
         // <!--start
-        final double expectedResult1 = Double.POSITIVE_INFINITY;
-        final double expectedResult2 = Double.POSITIVE_INFINITY;
+        final double expectedResult1 = 0.13333;
+        final double expectedResult2 = 6.66666;
         // --end-->
 
         assertEquals(expectedResult1, result1, +1.0E-05);
