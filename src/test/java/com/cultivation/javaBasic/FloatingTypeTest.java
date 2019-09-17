@@ -3,7 +3,9 @@ package com.cultivation.javaBasic;
 import org.junit.jupiter.api.Test;
 import sun.reflect.generics.reflectiveObjects.NotImplementedException;
 
+import static java.lang.Math.ceil;
 import static java.lang.Math.floor;
+import static java.lang.Math.log;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertTrue;
@@ -55,7 +57,7 @@ class FloatingTypeTest {
 
         // TODO: Please call some method to round the floating point number.
         // <!--start
-        final long rounded = Long.MAX_VALUE;
+        final long rounded = (long)ceil(floatingPointNumber);
         // --end-->
 
         assertEquals(3L, rounded);

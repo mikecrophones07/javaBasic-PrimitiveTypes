@@ -54,3 +54,9 @@ TEST 3 should_not_round_number_when_convert_to_integer
 2. didn't know how to convert float to int without rounding
 3. to pass the test and to test whether the real value is correct to the expected value
 4. None
+
+TEST 4 should_round_number
+1. to know if the value will be rounded up and converted to long
+2. no test error happened
+3. no correction happened since i only run the test once
+4. None
