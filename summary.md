@@ -60,3 +60,10 @@ TEST 4 should_round_number
 2. no test error happened
 3. no correction happened since i only run the test once
 4. None
+
+-- IntegerTypeTest --
+TEST 1 should_get_range_of_primitive_int_type
+1. to know a property that identify max and min limit of integer
+2. no test error happened
+3. no correction happened since i only run the test once
+4. None
