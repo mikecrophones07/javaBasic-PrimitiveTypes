@@ -98,14 +98,32 @@ TEST 6 should_underflow_silently
 3. no correction happened because the solutions is basically the invert solution for overflow silent 
 4. None
 
-TEST 7 should_underflow_silently  && TEST 8 should_underflow_silently
+TEST 7 should_throw_exception_when_overflow  && TEST 8 just_prevent_lazy_implementation
 1. to know how to create checking when overflowing happen and return value if no overflow happens
-2. no test error happened
-3. no correction happened because i run the test once
+2. error happened since i have wrong implementation of throw exception
+3. replace throw exception to correct the expected result
 4. None
 
-TEST 8 should_underflow_silently  && TEST 8 should_underflow_silently
-1. to know what is delta in assert https://stackoverflow.com/questions/33274030/why-is-assertequalsdouble-double-deprecated-in-junit/33274179#33274179
+TEST 9 should_take_care_of_number_type_when_doing_calculation
+1. to know what is delta in assert and how double cast value to given result https://stackoverflow.com/questions/33274030/why-is-assertequalsdouble-double-deprecated-in-junit/33274179#33274179
+2. error happened when conversion of operation is not compatible to primitive double
+3. corrected the test to the right result
+4. None
+
+TEST 10 should_truncate_number_when_casting
+1. to know the 16bit conversion of 32bit value
+2. didn't know how to convert 32 to 16 bit value
+3. calculated and test the value if it will be correct
+4. None
+
+TEST 11 should_increment
+1. to know if the value will not increment when increment happens on the right side of the value
+2. error happened because i taught value would be incremented
+3. i test some values if value will not increment when increment is put on the right side of the value
+4. None
+
+TEST 12 should_increment_2
+1. to know if the value will increment when increment happens on the left side of the value
 2. no test error happened
-3. no correction happened because i run the test once
+3. no correction happened because i run the test once, understanding the failures in test 11
 4. None

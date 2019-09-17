@@ -116,8 +116,8 @@ class IntegerTypeTest {
 
         // TODO: please modify the following lines to pass the test
         // <!--start
-        final double expectedResult1 = 0.13333;
-        final double expectedResult2 = 6.66666;
+        final double expectedResult1 = 0.0;
+        final double expectedResult2 = 3.0;
         // --end-->
 
         assertEquals(expectedResult1, result1, +1.0E-05);
@@ -131,7 +131,9 @@ class IntegerTypeTest {
 
         // TODO: please modify the following lines to pass the test
         // <!--start
-        final short expected = 0;
+        // 0x0123_4567 => 1001000110100010101100111
+        // 100010101100111 => 17767
+        final short expected = 17767;
         // --end-->
 
         assertEquals(expected, smallerInteger);
@@ -145,8 +147,8 @@ class IntegerTypeTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final int expectedCurrentInteger = 0;
-        final int expectedResult = 0;
+        final int expectedCurrentInteger = 4;
+        final int expectedResult = 3;
         // --end-->
 
         assertEquals(expectedCurrentInteger, integer);
@@ -161,8 +163,8 @@ class IntegerTypeTest {
 
         // TODO: please modify the following code to pass the test
         // <--start
-        final int expectedCurrentInteger = 0;
-        final int expectedResult = 0;
+        final int expectedCurrentInteger = 4;
+        final int expectedResult = 4;
         // --end-->
 
         assertEquals(expectedCurrentInteger, integer);
@@ -175,12 +177,12 @@ class IntegerTypeTest {
         try {
             int num = left + right;
             if (Integer.MIN_VALUE == num) {
-                throw new ArithmeticException();
+                throw new NotImplementedException();
             } else {
                 return num;
             }
         }catch (Exception e) {
-            throw new NotImplementedException();
+            throw new ArithmeticException();
         }
     }
 }
