@@ -97,3 +97,10 @@ TEST 6 should_underflow_silently
 2. no test error happened
 3. no correction happened because the solutions is basically the invert solution for overflow silent 
 4. None
+
+TEST 7 should_underflow_silently  && TEST 8 should_underflow_silently
+1. to know how to create checking when overflowing happen and return value if no overflow happens
+2. no test error happened
+3. no correction happened because i run the test once
+4. None
+
