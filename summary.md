@@ -91,3 +91,9 @@ TEST 5 should_overflow_silently
 2. didn't know that the logic of it is resets to the minimum value of Integer
 3. correct and set the expected result to min value using property
 4. None
+
+TEST 6 should_underflow_silently
+1. to know the logic of underflow silently for Integer Type
+2. no test error happened
+3. no correction happened because the solutions is basically the invert solution for overflow silent 
+4. None
