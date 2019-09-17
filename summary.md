@@ -79,3 +79,9 @@ TEST 3 should_get_range_of_primitive_long_type
 2. no test error happened
 3. no correction happened since i only run the test once
 4. None
+
+TEST 4 should_get_range_of_primitive_byte_type
+1. to know a property that identify max and min limit of Byte
+2. no test error happened
+3. no correction happened since i only run the test once
+4. None
